@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 5px;
-    min-width: 400px;
+    min-width: 100vh;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -37,8 +37,8 @@ body{
 .heart:before{
     content: '';
     position: absolute;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     background: #c70038;
     top: -50%;
     border-radius: 50px;
@@ -59,8 +59,8 @@ body{
 .texto{
     color: white; 
     padding: 2px;
-    margin-left: 35px;  
-    margin-top: 50px;
+    margin-left: 25px;  
+    margin-top: 30px;
     text-align: center;
     text-shadow: 1px 1px 2px white;
 
