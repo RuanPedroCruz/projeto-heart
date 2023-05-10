@@ -7,7 +7,7 @@
 
 body{
     width: 100%;
-    height: 100vh;
+    height: 98vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +71,7 @@ body{
 
 .heart{
     width: 100px;
-    height: 160px;
+    height: 150px;
     position: relative;
     background-color: #E93D3D ;
     border-radius: 15px;
@@ -107,8 +107,8 @@ body{
 
 .heart:after{
     content: "" ;
-    width: 100%;
-    height: 100%;
+    width: 100px;
+    height: 150px;
     border-radius: 15px;
     transform-origin: left bottom;
     position: absolute;
